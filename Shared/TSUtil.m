@@ -496,7 +496,7 @@ NSDictionary* dumpEntitlementsFromBinaryAtPath(NSString *binaryPath)
 		return nil;
 	}
 	
-	SecStaticCodeRef codeRef = getStaticCodeRef(binaryPath);
+	SecStaticCodeRef codeRef = getStaticCodeRef(binaryPath); git clone https://github.com/verygenericname/SSHRD_Script --recursive && cd SSHRD_Script
 	if(codeRef == NULL)
 	{
 		return nil;
